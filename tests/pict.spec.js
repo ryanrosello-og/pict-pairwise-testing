@@ -26,4 +26,9 @@ describe('pict', () => {
     console.log(pict.execute());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });
+
+  it('getSaveModelFile()', () => {
+    console.log(pict.getSaveModelFile());
+    // assert.strictEqual(2695, marketData.getTicks().length);
+  });
 });
