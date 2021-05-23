@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha tests/*.spec.js"
+    "test": "mocha tests/*.spec.js",
+    "prettier": "prettier --write --loglevel warn \"**/**/*.js\""
   },
   "repository": {
     "type": "git",
