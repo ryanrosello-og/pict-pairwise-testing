@@ -25,13 +25,14 @@ describe('pict -basic', () => {
       path.resolve(__dirname, 'models', model.generatedModelFile),
       'utf8',
       function (err, data) {
+        // prettier-ignore
         assert.deepStrictEqual(
           data,
-          `
-Single: Span,Stripe,Mirror,RAID-5
+`Single: Span,Stripe,Mirror,RAID-5
 Format method: Quick,Slow
 File system: FAT,FAT32,NTFS
-Compression: On,Off`
+Compression: On,Off
+`
         );
       }
     );
