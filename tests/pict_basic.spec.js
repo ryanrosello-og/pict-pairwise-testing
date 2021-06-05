@@ -1,6 +1,7 @@
 import Pict from '../lib/models/pict.js';
 import fs from 'fs';
 import assert from 'assert';
+import path from 'path';
 
 describe('pict -basic', () => {
   const jsonModel = {
@@ -18,16 +19,30 @@ describe('pict -basic', () => {
   });
 
   it.only('converts json to pict', () => {
-    console.log(pict.generateModel());
-    // assert.strictEqual(2695, marketData.getTicks().length);
+    const model = pict.generateModel();
+    const __dirname = path.resolve(path.dirname(''));
+    fs.readFile(
+      path.resolve(__dirname, 'models', model.generatedModelFile),
+      'utf8',
+      function (err, data) {
+        assert.deepStrictEqual(
+          data,
+          `
+Single: Span,Stripe,Mirror,RAID-5
+Format method: Quick,Slow
+File system: FAT,FAT32,NTFS
+Compression: On,Off`
+        );
+      }
+    );
   });
 
-  it('can execute', () => {
+  xit('can execute', () => {
     console.log(pict.execute());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });
 
-  it('getSaveModelFile()', () => {
+  xit('getSaveModelFile()', () => {
     console.log(pict.saveModelFile());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });

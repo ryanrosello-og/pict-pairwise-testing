@@ -2,7 +2,7 @@ import Pict from '../lib/models/pict.js';
 import fs from 'fs';
 import assert from 'assert';
 
-describe('pict -constraints', () => {
+describe.skip('pict -constraints', () => {
   const jsonModel = {
     parameters: [
       { property: 'Single', values: ['Span', 'Stripe', 'Mirror', 'RAID-5'] },
