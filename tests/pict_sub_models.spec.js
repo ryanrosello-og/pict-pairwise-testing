@@ -2,7 +2,7 @@ import Pict from '../lib/models/pict.js';
 import fs from 'fs';
 import assert from 'assert';
 
-describe('pict', () => {
+describe('pict -sub models', () => {
   const jsonModel = {
     parameters: [
       { property: 'Single', values: ['Span', 'Stripe', 'Mirror', 'RAID-5'] },
@@ -17,7 +17,7 @@ describe('pict', () => {
     pict = new Pict(jsonModel);
   });
 
-  it('converts json to pict', () => {
+  it.only('converts json to pict', () => {
     console.log(pict.getModel());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });
