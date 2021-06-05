@@ -1,4 +1,4 @@
-import Pict from '../lib/models/pict.js';
+import Pict from '../lib/pict.js';
 import fs from 'fs';
 import assert from 'assert';
 

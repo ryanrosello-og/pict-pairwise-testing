@@ -1,4 +1,4 @@
-import Pict from '../lib/models/pict.js';
+import Pict from '../lib/pict.js';
 import fs from 'fs';
 import assert from 'assert';
 import path from 'path';
@@ -13,13 +13,14 @@ describe('pict -basic', () => {
     ],
   };
   let pict;
+  let model;
 
   before(() => {
     pict = new Pict(jsonModel);
+    model = pict.generateModel();
   });
 
-  it.only('converts json to pict', () => {
-    const model = pict.generateModel();
+  it('converts json to pict', () => {
     const __dirname = path.resolve(path.dirname(''));
     fs.readFile(
       path.resolve(__dirname, 'models', model.generatedModelFile),
@@ -38,12 +39,84 @@ Compression: On,Off
     );
   });
 
-  xit('can execute', () => {
-    console.log(pict.execute());
-    // assert.strictEqual(2695, marketData.getTicks().length);
+  it('can execute', () => {
+    assert.deepStrictEqual([
+      {
+        single: 'RAID-5',
+        format_method: 'Quick',
+        file_system: 'FAT32',
+        compression: 'Off',
+      },
+      {
+        single: 'Mirror',
+        format_method: 'Quick',
+        file_system: 'FAT',
+        compression: 'On',
+      },
+      {
+        single: 'Mirror',
+        format_method: 'Slow',
+        file_system: 'FAT32',
+        compression: 'Off',
+      },
+      {
+        single: 'Stripe',
+        format_method: 'Slow',
+        file_system: 'NTFS',
+        compression: 'On',
+      },
+      {
+        single: 'Span',
+        format_method: 'Quick',
+        file_system: 'NTFS',
+        compression: 'Off',
+      },
+      {
+        single: 'RAID-5',
+        format_method: 'Slow',
+        file_system: 'FAT',
+        compression: 'On',
+      },
+      {
+        single: 'RAID-5',
+        format_method: 'Slow',
+        file_system: 'NTFS',
+        compression: 'Off',
+      },
+      {
+        single: 'Stripe',
+        format_method: 'Quick',
+        file_system: 'FAT',
+        compression: 'Off',
+      },
+      {
+        single: 'Span',
+        format_method: 'Slow',
+        file_system: 'FAT32',
+        compression: 'On',
+      },
+      {
+        single: 'Mirror',
+        format_method: 'Quick',
+        file_system: 'NTFS',
+        compression: 'On',
+      },
+      {
+        single: 'Stripe',
+        format_method: 'Quick',
+        file_system: 'FAT32',
+        compression: 'Off',
+      },
+      {
+        single: 'Span',
+        format_method: 'Slow',
+        file_system: 'FAT',
+        compression: 'Off',
+      },
+    ]);
   });
 
-  xit('getSaveModelFile()', () => {
+  it('getSaveModelFile()', () => {
     console.log(pict.saveModelFile());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });
