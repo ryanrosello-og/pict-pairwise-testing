@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ryanrosello-og/pict-pairwise-testing#readme",
   "devDependencies": {
+    "lodash": "^4.17.21",
     "mocha": "^8.4.0",
     "prettier": "^2.3.0"
   },
