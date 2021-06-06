@@ -17,7 +17,7 @@ describe.skip('pict -sub models', () => {
     pict = new Pict(jsonModel);
   });
 
-  it.only('converts json to pict', () => {
+  it('converts json to pict', () => {
     console.log(pict.getModel());
     // assert.strictEqual(2695, marketData.getTicks().length);
   });
