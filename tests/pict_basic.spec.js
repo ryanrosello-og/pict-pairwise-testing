@@ -32,7 +32,8 @@ describe('pict -basic', () => {
 `Single: Span,Stripe,Mirror,RAID-5
 Format method: Quick,Slow
 File system: FAT,FAT32,NTFS
-Compression: On,Off`
+Compression: On,Off
+`
         );
       }
     );
