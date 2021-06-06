@@ -1,34 +1,36 @@
 import Pict from '../lib/pict.js';
-import fs from 'fs';
+import { readFileSync } from 'fs';
 import assert from 'assert';
+import path from 'path';
 
-describe.skip('pict -sub models', () => {
+describe('pict -sub models', () => {
+  let pict;
+  let model;
   const jsonModel = {
     parameters: [
-      { property: 'Single', values: ['Span', 'Stripe', 'Mirror', 'RAID-5'] },
-      { property: 'Format method', values: ['Quick', 'Slow'] },
-      { property: 'File system', values: ['FAT', 'FAT32', 'NTFS'] },
-      { property: 'Compression', values: ['On', 'Off'] },
+      { property: 'PLATFORM', values: ['x86', 'x64', 'arm'] },
+      { property: 'CPUS', values: [1, 2, 4] },
+      { property: 'RAM', values: ['1GB', '4GB', '64GB'] },
+      { property: 'HDD', values: ['SCSI', 'IDE'] },
+      { property: 'OS', values: ['Win7', 'Win8', 'Win10'] },
+      { property: 'Browser', values: ['Edge', 'Opera', 'Chrome', 'Firefox'] },
+      { property: 'APP', values: ['Word', 'Excel', 'Powerpoint'] },
     ],
+    submodels: ['{ PLATFORM, CPUS, RAM, HDD } @ 3', '{ OS, Browser } @ 2'],
   };
-  let pict;
 
   before(() => {
     pict = new Pict(jsonModel);
   });
 
-  it('converts json to pict', () => {
-    console.log(pict.getModel());
-    // assert.strictEqual(2695, marketData.getTicks().length);
-  });
+  it('generates correct set of test cases', () => {
+    const __dirname = path.resolve(path.dirname(''));
 
-  it('can execute', () => {
-    console.log(pict.execute());
-    // assert.strictEqual(2695, marketData.getTicks().length);
-  });
-
-  it('getSaveModelFile()', () => {
-    console.log(pict.getSaveModelFile());
-    // assert.strictEqual(2695, marketData.getTicks().length);
+    const jsonString = readFileSync(
+      path.resolve(__dirname, 'fixtures/submodels.json')
+    );
+    const expectedTests = JSON.parse(jsonString);
+    model = pict.generateModel();
+    assert.deepStrictEqual(model.testCases, expectedTests);
   });
 });

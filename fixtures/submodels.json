@@ -1,0 +1,2918 @@
+[
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "arm",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Chrome",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Opera",
+    "app": "Excel"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Opera",
+    "app": "Powerpoint"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "4GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Edge",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "1",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win7",
+    "browser": "Firefox",
+    "app": "Excel"
+  },
+  {
+    "platform": "arm",
+    "cpus": "4",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x86",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "SCSI",
+    "os": "Win8",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "4",
+    "ram": "4GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "1",
+    "ram": "64GB",
+    "hdd": "IDE",
+    "os": "Win8",
+    "browser": "Edge",
+    "app": "Excel"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "1GB",
+    "hdd": "IDE",
+    "os": "Win10",
+    "browser": "Firefox",
+    "app": "Word"
+  },
+  {
+    "platform": "x64",
+    "cpus": "2",
+    "ram": "64GB",
+    "hdd": "SCSI",
+    "os": "Win7",
+    "browser": "Chrome",
+    "app": "Powerpoint"
+  }
+]
