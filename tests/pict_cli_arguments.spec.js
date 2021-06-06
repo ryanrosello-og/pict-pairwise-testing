@@ -1,7 +1,7 @@
 import Pict from '../lib/pict.js';
 import assert from 'assert';
 
-describe('pict -constraints', () => {
+describe('pict - command line arguments', () => {
   let pict;
   let model;
 
