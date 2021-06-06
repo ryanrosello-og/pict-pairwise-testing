@@ -1,11 +1,8 @@
 import Pict from '../lib/pict.js';
 import assert from 'assert';
 
-describe('pict - command line arguments', () => {
-  let pict;
-  let model;
-
-  const jsonModel = {
+describe.skip('pict - command line arguments', () => {
+  const model = {
     parameters: [
       {
         property: 'Type',
@@ -28,20 +25,82 @@ describe('pict - command line arguments', () => {
       },
       { property: 'Compression', values: ['on', 'off'] },
     ],
-    constraints: [
-      'IF [File system] = "FAT"   THEN [Size] <= 4096;',
-      'IF [File system] = "FAT32" THEN [Size] <= 32000;',
-    ],
   };
 
-  before(() => {
-    pict = new Pict(jsonModel);
+  it('accepts order_of_combinations cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ order_of_combinations: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
   });
 
-  it('constraints must end with a ; character');
+  it('accepts separator_for_values cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ separator_for_values: 1 }],
+    });
 
-  it('converts json to pict', () => {
-    model = pict.generateModel();
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts separator_for_aliases cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ order_of_combinations: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts negative_value_prefix cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ negative_value_prefix: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts file_with_seeding_rows cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ file_with_seeding_rows: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts randomize_generation cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ randomize_generation: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts case_sensitive_model_evaluation cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ case_sensitive_model_evaluation: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  it('accepts show_model_statistics cli argument', () => {
+    let pict = new Pict(model, {
+      options: [{ show_model_statistics: 1 }],
+    });
+
+    model = pict.generateTestCases();
+    assert.deepStrictEqual(model.testCases, []);
+  });
+
+  xit('converts json to pict', () => {
+    model = pict.generateTestCases();
 
     assert.deepStrictEqual(model.testCases, [
       {

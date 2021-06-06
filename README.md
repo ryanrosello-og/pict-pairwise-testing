@@ -5,3 +5,4 @@
 [] validated params
 [] readme with examples
 [] cypress example
+[] if arch type === windows 

@@ -41,7 +41,7 @@ describe('pict -constraints', () => {
   it('constraints must end with a ; character');
 
   it('converts json to pict', () => {
-    model = pict.generateModel();
+    model = pict.generateTestCases();
 
     assert.deepStrictEqual(model.testCases, [
       {

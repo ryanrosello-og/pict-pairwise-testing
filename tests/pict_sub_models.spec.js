@@ -30,7 +30,7 @@ describe('pict -sub models', () => {
       path.resolve(__dirname, 'fixtures/submodels.json')
     );
     const expectedTests = JSON.parse(jsonString);
-    model = pict.generateModel();
+    model = pict.generateTestCases();
     assert.deepStrictEqual(model.testCases, expectedTests);
   });
 });
