@@ -32,15 +32,15 @@ describe('pict -basic', () => {
 `Single: Span,Stripe,Mirror,RAID-5
 Format method: Quick,Slow
 File system: FAT,FAT32,NTFS
-Compression: On,Off
-`
+Compression: On,Off`
         );
       }
     );
   });
 
   it('can execute', () => {
-    assert.deepStrictEqual([
+    model = pict.generateModel();
+    assert.deepStrictEqual(model.testCases, [
       {
         single: 'RAID-5',
         format_method: 'Quick',
@@ -114,10 +114,5 @@ Compression: On,Off
         compression: 'Off',
       },
     ]);
-  });
-
-  it('getSaveModelFile()', () => {
-    console.log(pict.saveModelFile());
-    // assert.strictEqual(2695, marketData.getTicks().length);
   });
 });
