@@ -17,7 +17,7 @@ describe('pict -basic', () => {
 
   before(() => {
     pict = new Pict(jsonModel);
-    model = pict.generateModel();
+    model = pict.generateTestCases();
   });
 
   it('converts json to pict', () => {
@@ -40,7 +40,7 @@ Compression: On,Off
   });
 
   it('can execute', () => {
-    model = pict.generateModel();
+    model = pict.generateTestCases();
     assert.deepStrictEqual(model.testCases, [
       {
         single: 'RAID-5',
