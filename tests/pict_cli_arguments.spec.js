@@ -4,32 +4,15 @@ import assert from 'assert';
 describe.skip('pict - command line arguments', () => {
   const model = {
     parameters: [
-      {
-        property: 'Type',
-        values: [
-          'Primary',
-          'Logical',
-          'Single',
-          'Span',
-          'Stripe',
-          'Mirror',
-          'RAID-5',
-        ],
-      },
-      { property: 'Size', values: [10, 100, 500, 1000, 5000, 10000, 40000] },
-      { property: 'Format method', values: ['quick', 'slow'] },
-      { property: 'File system', values: ['FAT', 'FAT32', 'NTFS'] },
-      {
-        property: 'Cluster size',
-        values: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536],
-      },
-      { property: 'Compression', values: ['on', 'off'] },
+      { property: 'Status', values: ['Open', 'Closed'] },
+      { property: 'Threshold', values: [10, 100, 500] },
+      { property: 'Approved', values: ['yes', 'no'] },
     ],
   };
 
   it('accepts order_of_combinations cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ order_of_combinations: 3 }],
+      options: { order_of_combinations: 1 },
     });
 
     let testCases = pict.generateTestCases();
@@ -38,7 +21,16 @@ describe.skip('pict - command line arguments', () => {
 
   it('accepts randomize_generation cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ randomize_generation: 10 }],
+      options: { randomize_generation: 10 },
+    });
+
+    let testCases = pict.generateTestCases();
+    assert.deepStrictEqual(testCases, []);
+  });
+
+  it('can combine cli arguments', () => {
+    let pict = new Pict(model, {
+      options: { randomize_generation: 10, order_of_combinations: 1 },
     });
 
     let testCases = pict.generateTestCases();
@@ -47,7 +39,7 @@ describe.skip('pict - command line arguments', () => {
 
   it('accepts case_sensitive_model_evaluation cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ case_sensitive_model_evaluation: true }],
+      options: { case_sensitive_model_evaluation: true },
     });
 
     let result = pict.generateTestCases();
@@ -56,7 +48,7 @@ describe.skip('pict - command line arguments', () => {
 
   it('accepts show_model_statistics cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ show_model_statistics: true }],
+      options: { show_model_statistics: true },
     });
 
     let testCases = pict.generateTestCases();
