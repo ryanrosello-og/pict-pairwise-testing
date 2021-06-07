@@ -29,74 +29,38 @@ describe.skip('pict - command line arguments', () => {
 
   it('accepts order_of_combinations cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ order_of_combinations: 1 }],
+      options: [{ order_of_combinations: 3 }],
     });
 
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
-  });
-
-  it('accepts separator_for_values cli argument', () => {
-    let pict = new Pict(model, {
-      options: [{ separator_for_values: 1 }],
-    });
-
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
-  });
-
-  it('accepts separator_for_aliases cli argument', () => {
-    let pict = new Pict(model, {
-      options: [{ order_of_combinations: 1 }],
-    });
-
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
-  });
-
-  it('accepts negative_value_prefix cli argument', () => {
-    let pict = new Pict(model, {
-      options: [{ negative_value_prefix: 1 }],
-    });
-
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
-  });
-
-  it('accepts file_with_seeding_rows cli argument', () => {
-    let pict = new Pict(model, {
-      options: [{ file_with_seeding_rows: 1 }],
-    });
-
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
+    let testCases = pict.generateTestCases();
+    assert.deepStrictEqual(testCases, []);
   });
 
   it('accepts randomize_generation cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ randomize_generation: 1 }],
+      options: [{ randomize_generation: 10 }],
     });
 
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
+    let testCases = pict.generateTestCases();
+    assert.deepStrictEqual(testCases, []);
   });
 
   it('accepts case_sensitive_model_evaluation cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ case_sensitive_model_evaluation: 1 }],
+      options: [{ case_sensitive_model_evaluation: true }],
     });
 
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
+    let result = pict.generateTestCases();
+    assert.deepStrictEqual(result.testCases, []);
   });
 
   it('accepts show_model_statistics cli argument', () => {
     let pict = new Pict(model, {
-      options: [{ show_model_statistics: 1 }],
+      options: [{ show_model_statistics: true }],
     });
 
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, []);
+    let testCases = pict.generateTestCases();
+    assert.deepStrictEqual(testCases, []);
   });
 
   xit('converts json to pict', () => {
