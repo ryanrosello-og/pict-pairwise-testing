@@ -38,8 +38,6 @@ describe('pict -constraints', () => {
     pict = new Pict(jsonModel);
   });
 
-  it('constraints must end with a ; character');
-
   it('converts json to pict', () => {
     model = pict.generateTestCases();
 
