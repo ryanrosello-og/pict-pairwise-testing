@@ -15,7 +15,7 @@ describe('pict - model validation', () => {
     let result = pict.generateTestCases();
     assert.match(
       result.command,
-      /Command failed: .\/binaries\/pict_nix.*_generated.model/
+      /Command failed: .\/binaries\/pict.*_generated.model/
     );
     assert.strictEqual(
       result.error,
