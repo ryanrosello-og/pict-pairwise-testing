@@ -1,11 +1,9 @@
-import Pict from '../lib/pict.js';
-import { readFileSync } from 'fs';
-import assert from 'assert';
-import path from 'path';
+const pict = require('../lib/pict').pict;
+const readFileSync = require('fs').readFileSync;
+const assert = require('assert');
+const path = require('path');
 
 describe('pict -sub models', () => {
-  let pict;
-  let model;
   const jsonModel = {
     parameters: [
       { property: 'PLATFORM', values: ['x86', 'x64', 'arm'] },
@@ -19,10 +17,6 @@ describe('pict -sub models', () => {
     submodels: ['{ PLATFORM, CPUS, RAM, HDD } @ 3', '{ OS, Browser } @ 2'],
   };
 
-  before(() => {
-    pict = new Pict(jsonModel);
-  });
-
   it('generates correct set of test cases', () => {
     const __dirname = path.resolve(path.dirname(''));
 
@@ -30,7 +24,7 @@ describe('pict -sub models', () => {
       path.resolve(__dirname, 'fixtures/submodels.json')
     );
     const expectedTests = JSON.parse(jsonString);
-    model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, expectedTests);
+    let result = pict(jsonModel);
+    assert.deepStrictEqual(result.testCases, expectedTests);
   });
 });
