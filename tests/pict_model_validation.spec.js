@@ -12,10 +12,7 @@ describe('pict - model validation', () => {
       ],
     });
 
-    assert.match(
-      result.command,
-      /Command failed: .\/binaries\/pict.*_generated.model/
-    );
+    assert.match(result.command, /Command failed: .\/binaries\/pict.*.model/);
     assert.strictEqual(
       result.error,
       'Input Error: A parameter names must be unique'
