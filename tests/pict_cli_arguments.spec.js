@@ -11,6 +11,7 @@ describe('pict - command line arguments', () => {
   };
 
   it('accepts order_of_combinations cli argument', () => {
+
     let result = pict(model, {
       options: { order_of_combinations: 1 },
     });
@@ -23,6 +24,7 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts randomize_generation cli argument', () => {
+
     let result = pict(model, {
       options: { randomize_generation: 10 },
     });
@@ -38,6 +40,7 @@ describe('pict - command line arguments', () => {
   });
 
   it('can combine cli arguments', () => {
+
     let result = pict(model, {
       options: { randomize_generation: 10, order_of_combinations: 1 },
     });
@@ -50,6 +53,7 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts case_sensitive_model_evaluation cli argument', () => {
+
     let result = pict(model, {
       options: { case_sensitive_model_evaluation: true },
     });
@@ -65,6 +69,7 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts show_model_statistics cli argument', () => {
+
     let result = pict(model, {
       options: { show_model_statistics: true },
     });

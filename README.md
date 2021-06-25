@@ -216,8 +216,6 @@ const modelWithSubmodel = {
 let result = pict(modelWithSubmodel);
 ```
 
-
-
 # Credits
 
 There is nothing special about this package. All its doing is parsing the JSON pict model into text model which PICT can understand. PICT then performs the necessary heavy lifting to generate the test cases. Under the hood, this package fully relies on the PICT executable from [Microsoft's gitub repo](https://github.com/Microsoft/pict/blob/main/doc/pict.md)

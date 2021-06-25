@@ -17,6 +17,7 @@ describe('pict -sub models', () => {
     submodels: ['{ PLATFORM, CPUS, RAM, HDD } @ 3', '{ OS, Browser } @ 2'],
   };
 
+
   it('generates correct set of test cases', () => {
     const __dirname = path.resolve(path.dirname(''));
 
@@ -24,6 +25,7 @@ describe('pict -sub models', () => {
       path.resolve(__dirname, 'fixtures/submodels.json')
     );
     const expectedTests = JSON.parse(jsonString);
+
     let result = pict(jsonModel);
     assert.deepStrictEqual(result.testCases, expectedTests);
   });

@@ -2,6 +2,7 @@ const pict = require('../lib/pict').pict;
 const assert = require('assert');
 
 describe('pict -constraints', () => {
+
   const jsonModel = {
     parameters: [
       {
@@ -30,6 +31,7 @@ describe('pict -constraints', () => {
       'IF [File system] = "FAT32" THEN [Size] <= 32000;',
     ],
   };
+
 
   it('converts json to pict', () => {
     let result = pict(jsonModel);

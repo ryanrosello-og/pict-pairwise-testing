@@ -12,6 +12,7 @@ describe('pict -basic', () => {
       { property: 'Compression', values: ['On', 'Off'] },
     ],
   };
+
   let model;
 
   before(() => {
