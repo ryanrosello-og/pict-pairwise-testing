@@ -1,9 +1,12 @@
 {
   "name": "pict-pairwise-testing",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "description": "Pict wrapper for nodejs",
-  "main": "index.js",
-  "type": "module",
+  "main": "lib/pict.js",
+  "bin": {
+    "hello": "binaries/pict_nix"
+  },
+  "type": "commonjs",
   "scripts": {
     "test": "mocha tests/*.spec.js",
     "prettier": "prettier --write --loglevel warn \"**/**/*.js\""
@@ -26,7 +29,6 @@
   },
   "homepage": "https://github.com/ryanrosello-og/pict-pairwise-testing#readme",
   "devDependencies": {
-    "lodash": "^4.17.21",
     "mocha": "^8.4.0",
     "prettier": "^2.3.0"
   },
@@ -34,5 +36,9 @@
     "singleQuote": true,
     "tabWidth": 2,
     "semi": true
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "temp": "^0.9.4"
   }
 }

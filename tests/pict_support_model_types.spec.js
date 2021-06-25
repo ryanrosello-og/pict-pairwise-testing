@@ -1,17 +1,16 @@
-import Pict from '../lib/pict.js';
-import assert from 'assert';
-import path from 'path';
+const pict = require('../lib/pict').pict;
+const assert = require('assert');
+const path = require('path');
 
 describe('pict - describe model as text or from file', () => {
   it('can execute text based model', () => {
-    let pict = new Pict(`
-        Status: Open,Closed
-        Threshold: 10,100,500
-        Approved: Yes, No
+    let result = pict(`
+      Status: Open,Closed
+      Threshold: 10,100,500
+      Approved: Yes, No
     `);
 
-    let model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, [
+    assert.deepStrictEqual(result.testCases, [
       { status: 'Open', threshold: '100', approved: 'No' },
       { status: 'Closed', threshold: '10', approved: 'No' },
       { status: 'Closed', threshold: '500', approved: 'Yes' },
@@ -25,10 +24,8 @@ describe('pict - describe model as text or from file', () => {
     const __dirname = path.resolve(path.dirname(''));
     const modelFile = path.resolve(__dirname, 'fixtures/test-based.model');
 
-    let pict = new Pict(modelFile);
-
-    let model = pict.generateTestCases();
-    assert.deepStrictEqual(model.testCases, [
+    let results = pict(modelFile);
+    assert.deepStrictEqual(results.testCases, [
       { status: 'Open', threshold: '100', approved: 'No' },
       { status: 'Closed', threshold: '10', approved: 'No' },
       { status: 'Closed', threshold: '500', approved: 'Yes' },

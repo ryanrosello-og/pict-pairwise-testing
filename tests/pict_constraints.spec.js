@@ -1,9 +1,7 @@
-import Pict from '../lib/pict.js';
-import assert from 'assert';
+const pict = require('../lib/pict').pict;
+const assert = require('assert');
 
 describe('pict -constraints', () => {
-  let pict;
-  let model;
 
   const jsonModel = {
     parameters: [
@@ -34,14 +32,11 @@ describe('pict -constraints', () => {
     ],
   };
 
-  before(() => {
-    pict = new Pict(jsonModel);
-  });
 
   it('converts json to pict', () => {
-    model = pict.generateTestCases();
+    let result = pict(jsonModel);
 
-    assert.deepStrictEqual(model.testCases, [
+    assert.deepStrictEqual(result.testCases, [
       {
         type: 'Span',
         size: '5000',

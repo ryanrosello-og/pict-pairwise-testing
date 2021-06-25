@@ -1,7 +1,7 @@
-import Pict from '../lib/pict.js';
-import fs from 'fs';
-import assert from 'assert';
-import path from 'path';
+const pict = require('../lib/pict').pict;
+const fs = require('fs');
+const assert = require('assert');
+const path = require('path');
 
 describe('pict -basic', () => {
   const jsonModel = {
@@ -12,12 +12,11 @@ describe('pict -basic', () => {
       { property: 'Compression', values: ['On', 'Off'] },
     ],
   };
-  let pict;
+
   let model;
 
   before(() => {
-    pict = new Pict(jsonModel);
-    model = pict.generateTestCases();
+    model = pict(jsonModel);
   });
 
   it('converts json to pict', () => {
@@ -40,7 +39,6 @@ Compression: On,Off
   });
 
   it('can execute', () => {
-    model = pict.generateTestCases();
     assert.deepStrictEqual(model.testCases, [
       {
         single: 'RAID-5',

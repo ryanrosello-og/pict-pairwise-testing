@@ -1,5 +1,5 @@
-import Pict from '../lib/pict.js';
-import assert from 'assert';
+const pict = require('../lib/pict').pict;
+const assert = require('assert');
 
 describe('pict - command line arguments', () => {
   const model = {
@@ -11,11 +11,11 @@ describe('pict - command line arguments', () => {
   };
 
   it('accepts order_of_combinations cli argument', () => {
-    let pict = new Pict(model, {
+
+    let result = pict(model, {
       options: { order_of_combinations: 1 },
     });
 
-    let result = pict.generateTestCases();
     assert.deepStrictEqual(result.testCases, [
       { status: 'Closed', threshold: '100', approved: 'no' },
       { status: 'Open', threshold: '500', approved: 'yes' },
@@ -24,11 +24,11 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts randomize_generation cli argument', () => {
-    let pict = new Pict(model, {
+
+    let result = pict(model, {
       options: { randomize_generation: 10 },
     });
 
-    let result = pict.generateTestCases();
     assert.deepStrictEqual(result.testCases, [
       { status: 'Closed', threshold: '100', approved: 'no' },
       { status: 'Open', threshold: '10', approved: 'no' },
@@ -40,11 +40,11 @@ describe('pict - command line arguments', () => {
   });
 
   it('can combine cli arguments', () => {
-    let pict = new Pict(model, {
+
+    let result = pict(model, {
       options: { randomize_generation: 10, order_of_combinations: 1 },
     });
 
-    let result = pict.generateTestCases();
     assert.deepStrictEqual(result.testCases, [
       { status: 'Open', threshold: '100', approved: 'no' },
       { status: 'Closed', threshold: '10', approved: 'yes' },
@@ -53,11 +53,11 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts case_sensitive_model_evaluation cli argument', () => {
-    let pict = new Pict(model, {
+
+    let result = pict(model, {
       options: { case_sensitive_model_evaluation: true },
     });
 
-    let result = pict.generateTestCases();
     assert.deepStrictEqual(result.testCases, [
       { status: 'Open', threshold: '100', approved: 'no' },
       { status: 'Closed', threshold: '10', approved: 'no' },
@@ -69,11 +69,11 @@ describe('pict - command line arguments', () => {
   });
 
   it('accepts show_model_statistics cli argument', () => {
-    let pict = new Pict(model, {
+
+    let result = pict(model, {
       options: { show_model_statistics: true },
     });
 
-    let result = pict.generateTestCases();
     assert.deepStrictEqual(result.statistics, {
       combinations: 16,
       generated_tests: 6,
