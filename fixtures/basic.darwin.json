@@ -1,0 +1,74 @@
+[
+   {
+      "single": "Mirror",
+      "format_method": "Quick",
+      "file_system": "FAT32",
+      "compression": "On"
+   },
+   {
+      "single": "Stripe",
+      "format_method": "Slow",
+      "file_system": "FAT32",
+      "compression": "Off"
+   },
+   {
+      "single": "Stripe",
+      "format_method": "Quick",
+      "file_system": "FAT",
+      "compression": "On"
+   },
+   {
+      "single": "Mirror",
+      "format_method": "Slow",
+      "file_system": "FAT",
+      "compression": "Off"
+   },
+   {
+      "single": "Mirror",
+      "format_method": "Slow",
+      "file_system": "NTFS",
+      "compression": "On"
+   },
+   {
+      "single": "RAID-5",
+      "format_method": "Quick",
+      "file_system": "NTFS",
+      "compression": "Off"
+   },
+   {
+      "single": "Span",
+      "format_method": "Slow",
+      "file_system": "FAT32",
+      "compression": "Off"
+   },
+   {
+      "single": "Span",
+      "format_method": "Quick",
+      "file_system": "NTFS",
+      "compression": "On"
+   },
+   {
+      "single": "Stripe",
+      "format_method": "Slow",
+      "file_system": "NTFS",
+      "compression": "Off"
+   },
+   {
+      "single": "RAID-5",
+      "format_method": "Slow",
+      "file_system": "FAT",
+      "compression": "On"
+   },
+   {
+      "single": "Span",
+      "format_method": "Quick",
+      "file_system": "FAT",
+      "compression": "On"
+   },
+   {
+      "single": "RAID-5",
+      "format_method": "Slow",
+      "file_system": "FAT32",
+      "compression": "Off"
+   }
+]

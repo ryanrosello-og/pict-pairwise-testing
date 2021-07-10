@@ -1,7 +1,6 @@
 const pict = require('../lib/pict').pict;
-const readFileSync = require('fs').readFileSync;
 const assert = require('assert');
-const path = require('path');
+const util = require('./test_helper');
 
 describe('pict -sub models', () => {
   const jsonModel = {
@@ -17,14 +16,13 @@ describe('pict -sub models', () => {
     submodels: ['{ PLATFORM, CPUS, RAM, HDD } @ 3', '{ OS, Browser } @ 2'],
   };
 
-
   it('generates correct set of test cases', () => {
-    const __dirname = path.resolve(path.dirname(''));
-
-    const jsonString = readFileSync(
-      path.resolve(__dirname, 'fixtures/submodels.json')
-    );
-    const expectedTests = JSON.parse(jsonString);
+    let expectedTests = [];
+    if (process.platform === 'darwin') {
+      expectedTests = util.fetchExpectedData('submodels.darwin');
+    } else {
+      expectedTests = util.fetchExpectedData('submodels');
+    }
 
     let result = pict(jsonModel);
     assert.deepStrictEqual(result.testCases, expectedTests);

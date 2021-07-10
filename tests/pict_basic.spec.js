@@ -2,6 +2,7 @@ const pict = require('../lib/pict').pict;
 const fs = require('fs');
 const assert = require('assert');
 const path = require('path');
+const util = require('./test_helper');
 
 describe('pict -basic', () => {
   const jsonModel = {
@@ -39,79 +40,12 @@ Compression: On,Off
   });
 
   it('can execute', () => {
-    assert.deepStrictEqual(model.testCases, [
-      {
-        single: 'RAID-5',
-        format_method: 'Quick',
-        file_system: 'FAT32',
-        compression: 'Off',
-      },
-      {
-        single: 'Mirror',
-        format_method: 'Quick',
-        file_system: 'FAT',
-        compression: 'On',
-      },
-      {
-        single: 'Mirror',
-        format_method: 'Slow',
-        file_system: 'FAT32',
-        compression: 'Off',
-      },
-      {
-        single: 'Stripe',
-        format_method: 'Slow',
-        file_system: 'NTFS',
-        compression: 'On',
-      },
-      {
-        single: 'Span',
-        format_method: 'Quick',
-        file_system: 'NTFS',
-        compression: 'Off',
-      },
-      {
-        single: 'RAID-5',
-        format_method: 'Slow',
-        file_system: 'FAT',
-        compression: 'On',
-      },
-      {
-        single: 'RAID-5',
-        format_method: 'Slow',
-        file_system: 'NTFS',
-        compression: 'Off',
-      },
-      {
-        single: 'Stripe',
-        format_method: 'Quick',
-        file_system: 'FAT',
-        compression: 'Off',
-      },
-      {
-        single: 'Span',
-        format_method: 'Slow',
-        file_system: 'FAT32',
-        compression: 'On',
-      },
-      {
-        single: 'Mirror',
-        format_method: 'Quick',
-        file_system: 'NTFS',
-        compression: 'On',
-      },
-      {
-        single: 'Stripe',
-        format_method: 'Quick',
-        file_system: 'FAT32',
-        compression: 'Off',
-      },
-      {
-        single: 'Span',
-        format_method: 'Slow',
-        file_system: 'FAT',
-        compression: 'Off',
-      },
-    ]);
+    let expectedTests = [];
+    if (process.platform === 'darwin') {
+      expectedTests = util.fetchExpectedData('basic.darwin');
+    } else {
+      expectedTests = util.fetchExpectedData('basic');
+    }
+    assert.deepStrictEqual(model.testCases, expectedTests);
   });
 });

@@ -11,65 +11,117 @@ describe('pict - command line arguments', () => {
   };
 
   it('accepts order_of_combinations cli argument', () => {
-
     let result = pict(model, {
       options: { order_of_combinations: 1 },
     });
 
-    assert.deepStrictEqual(result.testCases, [
-      { status: 'Closed', threshold: '100', approved: 'no' },
-      { status: 'Open', threshold: '500', approved: 'yes' },
-      { status: 'Open', threshold: '10', approved: 'yes' },
-    ]);
+    if (process.platform === 'darwin') {
+      assert.deepStrictEqual(result.testCases, [
+        {
+          status: 'Open',
+          threshold: '10',
+          approved: 'no',
+        },
+        {
+          status: 'Closed',
+          threshold: '500',
+          approved: 'yes',
+        },
+        {
+          status: 'Closed',
+          threshold: '100',
+          approved: 'no',
+        },
+      ]);
+    } else {
+      assert.deepStrictEqual(result.testCases, [
+        { status: 'Closed', threshold: '100', approved: 'no' },
+        { status: 'Open', threshold: '500', approved: 'yes' },
+        { status: 'Open', threshold: '10', approved: 'yes' },
+      ]);
+    }
   });
 
   it('accepts randomize_generation cli argument', () => {
-
     let result = pict(model, {
       options: { randomize_generation: 10 },
     });
 
-    assert.deepStrictEqual(result.testCases, [
-      { status: 'Closed', threshold: '100', approved: 'no' },
-      { status: 'Open', threshold: '10', approved: 'no' },
-      { status: 'Open', threshold: '500', approved: 'no' },
-      { status: 'Closed', threshold: '500', approved: 'yes' },
-      { status: 'Open', threshold: '100', approved: 'yes' },
-      { status: 'Closed', threshold: '10', approved: 'yes' },
-    ]);
+    if (process.platform === 'darwin') {
+      assert.deepStrictEqual(result.testCases, [
+        {
+          status: 'Closed',
+          threshold: '100',
+          approved: 'yes',
+        },
+        {
+          status: 'Open',
+          threshold: '10',
+          approved: 'no',
+        },
+        {
+          status: 'Open',
+          threshold: '500',
+          approved: 'yes',
+        },
+        {
+          status: 'Open',
+          threshold: '100',
+          approved: 'no',
+        },
+        {
+          status: 'Closed',
+          threshold: '10',
+          approved: 'yes',
+        },
+        {
+          status: 'Closed',
+          threshold: '500',
+          approved: 'no',
+        },
+      ]);
+    } else {
+      assert.deepStrictEqual(result.testCases, [
+        { status: 'Closed', threshold: '100', approved: 'no' },
+        { status: 'Open', threshold: '10', approved: 'no' },
+        { status: 'Open', threshold: '500', approved: 'no' },
+        { status: 'Closed', threshold: '500', approved: 'yes' },
+        { status: 'Open', threshold: '100', approved: 'yes' },
+        { status: 'Closed', threshold: '10', approved: 'yes' },
+      ]);
+    }
   });
 
-  it('can combine cli arguments', () => {
+  if (process.platform !== 'darwin') {
+    it('can combine cli arguments', () => {
+      let result = pict(model, {
+        options: { randomize_generation: 10, order_of_combinations: 1 },
+      });
 
-    let result = pict(model, {
-      options: { randomize_generation: 10, order_of_combinations: 1 },
+      assert.deepStrictEqual(result.testCases, [
+        { status: 'Open', threshold: '100', approved: 'no' },
+        { status: 'Closed', threshold: '10', approved: 'yes' },
+        { status: 'Open', threshold: '500', approved: 'yes' },
+      ]);
     });
 
-    assert.deepStrictEqual(result.testCases, [
-      { status: 'Open', threshold: '100', approved: 'no' },
-      { status: 'Closed', threshold: '10', approved: 'yes' },
-      { status: 'Open', threshold: '500', approved: 'yes' },
-    ]);
-  });
+    it('accepts case_sensitive_model_evaluation cli argument', () => {
+      let result = pict(model, {
+        options: { case_sensitive_model_evaluation: true },
+      });
 
-  it('accepts case_sensitive_model_evaluation cli argument', () => {
-
-    let result = pict(model, {
-      options: { case_sensitive_model_evaluation: true },
+      assert.deepStrictEqual(result.testCases, [
+        { status: 'Open', threshold: '100', approved: 'no' },
+        { status: 'Closed', threshold: '10', approved: 'no' },
+        { status: 'Closed', threshold: '500', approved: 'yes' },
+        { status: 'Closed', threshold: '100', approved: 'yes' },
+        { status: 'Open', threshold: '10', approved: 'yes' },
+        { status: 'Open', threshold: '500', approved: 'no' },
+      ]);
     });
-
-    assert.deepStrictEqual(result.testCases, [
-      { status: 'Open', threshold: '100', approved: 'no' },
-      { status: 'Closed', threshold: '10', approved: 'no' },
-      { status: 'Closed', threshold: '500', approved: 'yes' },
-      { status: 'Closed', threshold: '100', approved: 'yes' },
-      { status: 'Open', threshold: '10', approved: 'yes' },
-      { status: 'Open', threshold: '500', approved: 'no' },
-    ]);
-  });
+  }
 
   it('accepts show_model_statistics cli argument', () => {
-
     let result = pict(model, {
       options: { show_model_statistics: true },
     });
